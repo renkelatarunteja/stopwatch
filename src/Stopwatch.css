@@ -1,15 +1,35 @@
-.stopwatch {
-    text-align: center;
-  }
-  
-  .time {
-    font-size: 2rem;
-    margin: 20px 0;
-  }
-  
-  .controls button {
-    margin: 0 10px;
-    padding: 10px 20px;
-    font-size: 1rem;
-  }
-  
+.stopwatch-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.stopwatch-container h2 {
+  margin-bottom: 10px;
+}
+
+.stopwatch-container p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.stopwatch-container button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.stopwatch-container button:hover {
+  background-color: #45a049;
+}
+
+.stopwatch-container button:active {
+  background-color: #398439;
+}
+
